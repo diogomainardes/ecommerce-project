@@ -1,0 +1,35 @@
+html {
+    height: 200vh;
+}
+
+.highlights {
+    margin-top: -50px;
+}
+
+.highlights .wrapper {
+    justify-content: center;
+    padding: 25px;
+    box-sizing: border-box;
+    width: 900px;
+    -webkit-box-shadow: 0px 5px 15px -4px rgba(0,0,0,0.54);
+    -moz-box-shadow: 0px 5px 15px -4px rgba(0,0,0,0.54);
+    box-shadow: 0px 5px 15px -4px rgba(0,0,0,0.54);
+    background-color: #FFF;
+}
+
+.highlights .item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-direction: column;
+    width: 180px;
+}
+
+.highlights .item .text {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.highlights .item .subtext {
+    font-size: 0.8rem;
+}

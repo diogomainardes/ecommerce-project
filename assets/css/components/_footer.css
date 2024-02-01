@@ -1,0 +1,42 @@
+footer {
+    margin-top: 60px;
+    background-color: var(--background-color-header-footer);
+    border-bottom: solid 10px var(--background-color-topbar);
+}
+
+footer .wrapper {
+    align-items: center;
+    padding: 25px 0;
+}
+
+footer .wrapper > div {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+footer .wrapper > div:nth-child(2) {
+    align-items: end;
+    flex-direction: column;
+}
+
+footer .wrapper .navigation {
+    margin-left: 25px;
+}
+
+footer .wrapper .navigation a {
+    color: #FFF;
+}
+
+footer .wrapper .social-media a {
+    margin: 5px;
+}
+
+footer .wrapper .payments-info {
+    display: flex;
+    margin: 5px;
+    color: #FFF;
+    align-items: center;
+    gap:10px;
+}
+

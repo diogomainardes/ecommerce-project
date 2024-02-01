@@ -1,0 +1,42 @@
+.list-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-products .product {
+  width: 285px;  
+}
+
+.list-products .product a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 5px 15px 5px;
+}
+
+.list-products .product a:hover {
+    background-color: #EEEEEE;
+    transition: background-color 0.5s;
+}
+
+.list-products .product a img {
+    width: 100%;
+}
+
+.list-products .product a .title {
+    display: flex;
+    white-space: wrap;
+    height: 35px;
+    text-align: center;
+    line-height: 120%;
+    align-items: center;
+}
+
+.list-products .product a .price {
+    font-size: 1.5rem;
+}
+
+.list-products .product a .text {
+    
+}

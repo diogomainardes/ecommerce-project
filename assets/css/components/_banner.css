@@ -1,0 +1,7 @@
+.banner {
+    background-color: var(--background-color-topbar);
+    background-image: url('../../images/banner.jpg');
+    height: 530px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
