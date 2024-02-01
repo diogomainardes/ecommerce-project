@@ -1,0 +1,15 @@
+:root {
+    --primary-color-1: #EC8221;
+    --primary-color-2: #1398D1;
+    --primary-color-3: #1155A6;
+
+    --font-color-text-100: #333333;
+    --font-color-text-80: #5C5C5C;
+    --font-color-text-60: #858585;
+
+    --system-color-success: #86CE6C;
+    --system-color-warning: #D1DB59;
+
+    --background-color-header-footer: #333333;
+    --background-color-topbar: #000000;
+}

@@ -1,0 +1,23 @@
+.navigation-bar {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.navigation-bar .wrapper{
+    height: 70px;
+    align-items: center;
+}
+
+.navigation-bar .wrapper nav{
+    display: flex;
+    column-gap: 30px;
+}
+
+.navigation-bar .wrapper nav a{
+    display: flex;
+    column-gap: 20px;
+    color: var(--font-color-text-100);
+}
+
+.navigation-bar .wrapper nav a:hover{
+    color: var(--primary-color-2);
+}

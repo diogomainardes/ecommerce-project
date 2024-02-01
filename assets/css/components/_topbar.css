@@ -1,0 +1,26 @@
+.topbar {
+    background-color: var(--background-color-topbar);
+    color: #FFFFFF;
+}
+
+.topbar .wrapper > div {
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.topbar .wrapper div:nth-child(2) {
+    justify-content: flex-end;
+}
+
+.topbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0px 15px 0 0;
+    font-size: 0.8rem;
+}
+
+.topbar a:hover {
+    color: var(--primary-color-2);
+}
