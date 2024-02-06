@@ -1,16 +1,16 @@
-@import url(/assets/css/commons/_reset.css);
-@import url(/assets/css/commons/_variables.css);
-@import url(/assets/css/commons/_common.css);
+@import url(./commons/_reset.css);
+@import url(./commons/_variables.css);
+@import url(./commons/_common.css);
 
-@import url(/assets/css/commons/_list-products.css);
+@import url(./commons/_list-products.css);
 
-@import url(/assets/css/components/_topbar.css);
-@import url(/assets/css/components/_search-bar.css);
-@import url(/assets/css/components/_navigation-bar.css);
-@import url(/assets/css/components/_banner.css);
-@import url(/assets/css/components/_highlights.css);
-@import url(/assets/css/components/_list-products-man.css);
-@import url(/assets/css/components/_list-products-woman.css);
-@import url(/assets/css/components/_list-products-best-sellers.css);
+@import url(./components/_topbar.css);
+@import url(./components/_search-bar.css);
+@import url(./components/_navigation-bar.css);
+@import url(./components/_banner.css);
+@import url(./components/_highlights.css);
+@import url(./components/_list-products-man.css);
+@import url(./components/_list-products-woman.css);
+@import url(./components/_list-products-best-sellers.css);
 
-@import url(/assets/css/components/_footer.css);
+@import url(./components/_footer.css);
